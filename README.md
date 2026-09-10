@@ -1,43 +1,37 @@
-
 # Employee Management System - Java
 
-A Java-based Employee Management System using ArrayList and Scanner.
+A Java-based console application for managing employee records using JDBC and MySQL.
 
 ## Features
 
-- Add Employee
-- View Employees
-- Search Employee
-- Exit
-- Stores employee ID, name, department and salary
+- Add employee
+- View all employees
+- Search employee by ID
+- Store employee records in MySQL
+- Menu-driven console interface
 
 ## Technologies Used
 
 - Java
-- OOP
-- ArrayList
-- Scanner
-- GitHub
+- Object-Oriented Programming (OOP)
+- JDBC
+- MySQL
+- SQL
+- Git & GitHub
+
+## Database
+
+The project uses a MySQL database named `employee_management`.
+
+The `database.sql` file contains the database, table, and sample employee records.
 
 ## Project Structure
 
-src/
-- Employee.java
-- EmployeeManagementSystem.java
-
-## How to Run
-
-1. Clone the repository.
-2. Open the project in a Java IDE.
-3. Compile the Java files.
-4. Run EmployeeManagementSystem.java.
-
-## Concepts Used
-
-- Classes and Objects
-- Encapsulation
-- Constructors
-- Methods
-- ArrayList
-- User Input
-- Loops and Conditional Statements
+```text
+Employee-Management-System-Java/
+│
+├── README.md
+├── database.sql
+└── src/
+    ├── Employee.java
+    └── EmployeeManagementSystem.java
